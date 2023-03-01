@@ -5,17 +5,11 @@ void parser_open(char* file);
 
 int main(int argc, char *argv[])
 {
-	FILE *file;
-    if(argc != 2)
-    {
-        printf("File is Needed!\n");
-        exit(1);
-    }
-    file = fopen(argv[1], "r");
+	parser_open(argv[1])
 	return 0;
 }
 
 parser_open(char* file)
 {
-	
+	lexer_open(file);
 }
