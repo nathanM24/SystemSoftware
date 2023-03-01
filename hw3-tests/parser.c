@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 int main();
-void parser_open(char* file);
+void parser_open(const char* file);
 
 int main(int argc, char *argv[])
 {
