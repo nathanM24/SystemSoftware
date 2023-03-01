@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 int main();
-void parser_open();
+void parser_open(char* file);
 
 int main(int argc, char *argv[])
 {
@@ -13,4 +13,9 @@ int main(int argc, char *argv[])
     }
     file = fopen(argv[1], "r");
 	return 0;
+}
+
+parser_open(char* file)
+{
+	
 }
