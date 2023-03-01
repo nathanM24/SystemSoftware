@@ -5,11 +5,12 @@ void parser_open(char* file);
 
 int main(int argc, char *argv[])
 {
-	parser_open(argv[1])
+	const char* fname = argv[1];
+	parser_open(fname);
 	return 0;
 }
 
-parser_open(char* file)
+parser_open(const char* file)
 {
 	lexer_open(file);
 }
