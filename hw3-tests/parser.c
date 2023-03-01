@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include "lexer.h"
+#include "ast.h"
 
 int main();
 void parser_open(const char* file);
