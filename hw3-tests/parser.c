@@ -1,4 +1,8 @@
 #include <stdlib.h>
+<<<<<<< HEAD
+=======
+#include "lexer.h"
+>>>>>>> dd9a23ad181a2abb709b1166b03464f0a03df79d
 #include "ast.h"
 
 int main();
